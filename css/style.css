@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding:0;
+}
+.panda_card {
+    border:0px;
+}
+
+.panda_card_footer{
+    background:white;
+    border:0px;
+}
