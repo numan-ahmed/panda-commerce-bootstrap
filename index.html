@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+    <header class="container ">
+        <nav class="navbar sticky_own sticky-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid my_nav_color ">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -26,13 +28,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -41,18 +43,19 @@
 
 
         <section class="my-carousel mt-5">
-            <div id="carouselExampleControls" class="carousel  slide" data-bs-ride="carousel">
+            <div id="carouselExampleControls" class="carousel  slide carousel_item_bg " data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item  active">
                         <div class="row  d-flex align-items-center justify-content-center p-5">
                             <div class="col-md-7  ml-5">
                                 <h1>Mega LCD TV For Sports
                                 </h1>
-                                <p>This is the best tv in the world for people who just want to waste time in front of tv.
+                                <p>This is the best tv in the world for people who just want to waste time in front of
+                                    tv.
 
                                 </p>
                                 <h3>$1200</h3>
-                                <button class="btn btn-primary">Buy Now>></button>
+                                <button class="btn my_btn_color">Buy Now>></button>
 
                             </div>
                             <div class="col-md-5">
@@ -61,16 +64,17 @@
                         </div>
 
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item ">
                         <div class="row d-flex align-items-center justify-content-center p-5">
                             <div class="col-md-7">
                                 <h1>Cool Dude Headphone
                                 </h1>
-                                <p> This is the best headphone in the world for people who just want to waste time in front of funky world.
+                                <p> This is the best headphone in the world for people who just want to waste time in
+                                    front of funky world.
 
                                 </p>
                                 <h3>$420</h3>
-                                <button class="btn btn-primary">Buy Now>></button>
+                                <button class="btn my_btn_color">Buy Now>></button>
 
                             </div>
                             <div class="col-md-5">
@@ -80,17 +84,18 @@
                         </div>
 
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item ">
 
                         <div class="row d-flex align-items-center justify-content-center p-5">
                             <div class="col-md-7">
                                 <h1> X-Box for your living room
                                 </h1>
-                                <p> This is the best x-box in the world for people who just want to waste time in front of fake sports.
+                                <p> This is the best x-box in the world for people who just want to waste time in front
+                                    of fake sports.
 
                                 </p>
                                 <h3>$600</h3>
-                                <button class="btn btn-primary">Buy Now>></button>
+                                <button class="btn my_btn_color">Buy Now>></button>
 
 
                             </div>
@@ -118,21 +123,21 @@
     <main class="container">
 
         <section class="container overflow-hidden mt-5">
-            <div class="row gx-5">
+            <div class="row g-5">
                 <div class="col">
-                    <div class="p-3 rounded bg-primary d-flex align-items-center justify-content-around">
+                    <div class="p-3 rounded bg-primary d-flex align-items-center justify-content-around categories">
                         <h1 class="text-white">watch</h1>
                         <img src="images/categories/watch.png" alt="">
                     </div>
                 </div>
                 <div class="col">
-                    <div class="p-3 rounded bg-warning d-flex align-items-center justify-content-around">
+                    <div class="p-3 rounded bg-warning d-flex align-items-center justify-content-around categories">
                         <h1 class="text-white">Bag</h1>
                         <img src="images/categories/bag.png" alt="">
                     </div>
                 </div>
                 <div class="col">
-                    <div class="p-3 rounded bg-success d-flex align-items-center justify-content-around">
+                    <div class="p-3 rounded bg-success d-flex align-items-center justify-content-around categories">
                         <h1 class="text-white">Shoes</h1>
                         <img src="images/categories/shoes.png" alt="">
                     </div>
@@ -141,12 +146,12 @@
             </div>
         </section>
 
-        <section class="mt-5">
+        <section id="shoes" class="mt-5">
             <h3>Shoes</h3>
 
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-    <div class="card h-100 shadow panda_card panda_card_footer ">
+                    <div class="card h-100 shadow panda_card panda_card_footer">
                         <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Supply 350</h5>
@@ -155,7 +160,7 @@
                         </div>
                         <div class="card-footer panda_card_footer">
                             <h5>$820</h5>
-                            <button class="btn btn-primary">Buy Now>></button>
+                            <button class="btn my_btn_color">Buy Now>></button>
                         </div>
                     </div>
                 </div>
@@ -169,7 +174,7 @@
                         </div>
                         <div class="card-footer panda_card_footer">
                             <h5>$520</h5>
-                            <button class="btn btn-primary">Buy Now>></button>
+                            <button class="btn my_btn_color">Buy Now>></button>
                         </div>
                     </div>
                 </div>
@@ -184,14 +189,14 @@
                         </div>
                         <div class="card-footer panda_card_footer">
                             <h5>$920</h5>
-                            <button class="btn btn-primary">Buy Now>></button>
+                            <button class="btn my_btn_color">Buy Now>></button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="mt-5">
+        <section id="backpack" class="mt-5">
             <h3>Backpack</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -205,7 +210,7 @@
                                 additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="card-footer panda_card_footer">
-                            <button class="btn btn-primary">Buy Now>></button>
+                            <button class="btn my_btn_color">Buy Now>></button>
                         </div>
                     </div>
                 </div>
@@ -219,7 +224,7 @@
                                 content.</p>
                         </div>
                         <div class="card-footer panda_card_footer">
-                            <button class="btn btn-primary">Buy Now>></button>
+                            <button class="btn my_btn_color">Buy Now>></button>
                         </div>
                     </div>
                 </div>
@@ -234,7 +239,7 @@
                                 height action.</p>
                         </div>
                         <div class="card-footer panda_card_footer">
-                            <button class="btn btn-primary">Buy Now>></button>
+                            <button class="btn my_btn_color">Buy Now>></button>
                         </div>
                     </div>
                 </div>
@@ -242,13 +247,13 @@
 
 
         </section>
-        <section  style="height:300px;" class=" bg-primary d-flex mt-5 align-items-center justify-content-center">
-           <div>
-            <h1>LET'S STAY IN TOUCH</h1>
-            <h5>Get updates on sales, specials and more</h5>
-            <input placeholder="Input Your email address" type="email">
-            <h3><button class="btn btn-primary">SUBMIT</button></h3>
-           </div>
+        <section id="subscribe" class=" my_bg_color d-flex mt-5 align-items-center justify-content-center">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <h5>Get updates on sales, specials and more</h5>
+                <input placeholder="Input Your email address" type="email">
+                <h3><button class="btn my_btn_color">SUBMIT</button></h3>
+            </div>
 
         </section>
         <footer class="mt-5 mb-5 d-flex justify-content-center">
