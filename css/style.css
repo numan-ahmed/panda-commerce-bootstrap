@@ -31,3 +31,12 @@
     background:#eb37eb66;
     
 }
+
+
+button:hover.my-hover{
+    
+    background:#f777f766;
+    color:#03090f;
+  font-weight: bolder;
+  
+}
